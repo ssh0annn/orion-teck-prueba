@@ -31,7 +31,7 @@ API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **Postg
 │       CLIENT         │
 ├──────────────────────┤
 │ id (PK)              │
-│ name                 │
+│ nombre                 │
 │ email                │
 ├──────────────────────┤
 │ created_at           │
@@ -43,9 +43,9 @@ API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **Postg
 │      ADDRESS         │
 ├──────────────────────┤
 │ id (PK)              │
-│ street               │
-│ city                 │
-│ country              │
+│ calle                │
+│ ciuddad              │
+│ pais                 │
 │ client_id (FK)       │
 ├──────────────────────┤
 │ created_at           │

@@ -31,7 +31,7 @@ API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **Postg
 │       CLIENT         │
 ├──────────────────────┤
 │ id (PK)              │
-│ nombre                 │
+│ nombre               │
 │ email                │
 ├──────────────────────┤
 │ created_at           │
@@ -51,3 +51,16 @@ API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **Postg
 │ created_at           │
 └──────────────────────┘
 
+
+
+## 🧪 Pruebas de Endpoints (CQRS)
+
+| Paso | Método | Ruta                              | Patrón CQRS | Descripción |
+|------|--------|------------------------------------|------------|-------------|
+| 1    | POST   | `/api/clientes`                    | COMANDO    | Crea un nuevo cliente. Respuesta: **201 Created** |
+| 2    | POST   | `/api/clientes/{id}/direcciones`   | COMANDO    | Agrega una dirección a un cliente. Respuesta: **201 Created** |
+| 3    | GET    | `/api/clientes/{id}`               | CONSULTA   | Obtiene el detalle del cliente con direcciones. Respuesta: **200 OK** |
+| 4    | GET    | `/api/clientes`                    | CONSULTA   | Lista todos los clientes. Respuesta: **200 OK** |
+| 5    | DELETE | `/api/clientes/{id}`               | COMANDO    | Elimina un cliente y sus direcciones. Respuesta: **204 No Content** |
+
+---

@@ -24,8 +24,6 @@ API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **Postg
 
 ---
 
-## 📊 Diagrama de la Base de Datos
-
 ## 📊 Modelo Relacional de la Base de Datos
 
 ```text

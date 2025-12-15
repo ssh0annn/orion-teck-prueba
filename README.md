@@ -1,4 +1,4 @@
-# 🧩 OrionTek - Clientes Control API
+# 🧩 Clientes Control API
 
 API REST desarrollada en **Java con Spring Boot**, utilizando **CQRS** y **PostgreSQL** para la gestión de clientes y direcciones.
 
